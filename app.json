@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "android": {
+      "permissions": ["INTERNET"]
+    },
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Retina Care to access your camera."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Retina Care to access your Gallery."
+        }
+      ]
+    ],
+    "name": "RetinaCare",
+    "slug": "RetinaCare"
+  }
+}
